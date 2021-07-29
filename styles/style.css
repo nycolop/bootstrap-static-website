@@ -1,0 +1,67 @@
+/* 
+body div {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+main {
+    flex: 1;
+    ||
+    flex-grow: 1;
+}
+*/
+
+.invert {
+    filter: invert(1);
+}
+
+button:hover {
+    transition: 1s;
+    transform: scale(1) translateY(-10px);
+}
+
+.bcg1 {
+    background-image: url('../assets/bs.jpg');
+    background-position: 0% 1%;
+}
+
+.bcg2 {
+    background-image: url('../assets/salta.jpg');
+}
+
+.bcg3 {
+    background-image: url('../assets/mendoza.jpg');
+    background-position: 0% 20%;
+}
+
+.bcg4 {
+    background-image: url('../assets/jujuy.jpg');
+    background-position: 0% 30%;
+}
+
+.bcg5 {
+    background-image: url('../assets/corrientes.jpg');
+    background-position: 0% 70%;
+}
+
+.bcg6 {
+    background-image: url('../assets/cordoba.png');
+    background-position: 0% 50%;
+}
+
+.bcg1, .bcg2, .bcg3, .bcg4, .bcg5, .bcg6 {
+    background-size: cover;
+    cursor: pointer;
+}
+
+h5 {
+    text-shadow: 2px 1px 1px #000000;
+    color: white;
+}
+
+p.card-text {
+    color: white;
+    text-shadow: 2px 1px 1px #000000;
+}
